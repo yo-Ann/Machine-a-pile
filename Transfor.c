@@ -85,8 +85,15 @@ int detectionEtiquette(char etiq[]){
 return 0;
 }
 
-
-
+// Fonction de stockage des etiquettes (pour s'endebarrasser lors de la conversion)//
+void stockageEtiquette( char etiq[], char copie){
+  i=O;
+  while (i!= ';'){
+    etiq[i]=copie[i];
+    i++;
+  }
+ 
+}
 
 
   }
