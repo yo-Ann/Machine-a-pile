@@ -104,5 +104,7 @@ void stockageEtiquette( char etiq[], char copie []){
 
 
 int main(int argc,char *argv[]){
+  FILE* hexa;
+  hexa=fopen("hexa.txt","r");
 
 }
