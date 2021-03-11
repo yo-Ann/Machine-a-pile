@@ -1,0 +1,15 @@
+appel: read 1000
+       push 1000
+       read 1001
+       push 1001
+       call maximum
+       halt
+maximum: pop 50
+         op 2
+         jpc bis
+         write 1001
+         push 50
+         ret
+bis:     write 1000
+         push 50
+         ret
