@@ -1,0 +1,7 @@
+read 1002
+push 1002
+   push# 3
+op 13
+   pop 1002
+ write 1002
+halt
